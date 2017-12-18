@@ -32,7 +32,7 @@ p {
     width: 170px;
     height: 170px;
     margin: 10px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 #ruby-image:hover, #emerald-image:hover,
@@ -51,6 +51,10 @@ p {
     margin-right: 20px;
     float: left;
     text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    font-size: 300%;
+    color: black;
 }
 
 #win-loss-counter {
@@ -59,6 +63,10 @@ p {
     width: 150px;
     float: left;
     text-align: center;
+    color: black;
+    font-size: 150%;
+    vertical-align: middle;
+    line-height: 70px;
 }
 
 .total-score {
@@ -73,4 +81,8 @@ p {
     width: 200px;
     height: 100px;
     text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 300%;
+    color: black;
 }
